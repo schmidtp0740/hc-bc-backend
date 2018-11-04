@@ -23,8 +23,6 @@ app
 
 .vscode
 
-mysql
 
 vendor
 
-k8s-mysql.yaml
