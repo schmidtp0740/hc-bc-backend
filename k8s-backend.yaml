@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: schmidtp0740/hc-bc-backend:0.0.5
+        image: schmidtp0740/hc-bc-backend
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
