@@ -1,7 +1,7 @@
 FROM golang:1.11
 WORKDIR /go/src/app
 ADD vendor vendor
-ADD . .
+ADD *.go ./
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o app .
 
 FROM scratch

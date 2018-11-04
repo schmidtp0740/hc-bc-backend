@@ -20,12 +20,6 @@
   version = "v1.6.2"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/mediocregopher/radix.v2"
-  packages = ["redis"]
-  revision = "94360be262532d465b7e4760c7a67195d3319a87"
-
-[[projects]]
   name = "github.com/rs/cors"
   packages = ["."]
   revision = "3fb1b69b103a84de38a19c3c6ec073dd6caa4d3f"
@@ -40,6 +34,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "1fad860c61cb8e9b86d45276ef300c53b57fe977e4c91055fed0a8f4fa2c4cdb"
+  inputs-digest = "3def77e8fd99568fe652079bcacfb69a5d735d6dcd042d72e39517b60fffaca5"
   solver-name = "gps-cdcl"
   solver-version = 1
